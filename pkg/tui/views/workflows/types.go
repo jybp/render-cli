@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/render-oss/cli/pkg/types"
+	"github.com/jybp/render-cli/v2/pkg/types"
 )
 
 type TaskListInput struct {

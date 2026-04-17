@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/render-oss/cli/pkg/client/oauth"
+	"github.com/jybp/render-cli/v2/pkg/client/oauth"
 )
 
 func TestClient_CreateGrant(t *testing.T) {

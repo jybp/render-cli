@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/render-oss/cli/pkg/pointers"
-	sse "github.com/render-oss/cli/pkg/workflows/apiserver/internal/serversideevents"
+	"github.com/jybp/render-cli/v2/pkg/pointers"
+	sse "github.com/jybp/render-cli/v2/pkg/workflows/apiserver/internal/serversideevents"
 )
 
 type streamRecorder struct {

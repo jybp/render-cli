@@ -5,8 +5,8 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 
-	wfclient "github.com/render-oss/cli/pkg/client/workflows"
-	"github.com/render-oss/cli/pkg/style"
+	wfclient "github.com/jybp/render-cli/v2/pkg/client/workflows"
+	"github.com/jybp/render-cli/v2/pkg/style"
 )
 
 func statusWithStyle(status wfclient.TaskRunStatus) lipgloss.Style {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/render-oss/cli/pkg/client"
-	"github.com/render-oss/cli/pkg/text"
+	"github.com/jybp/render-cli/v2/pkg/client"
+	"github.com/jybp/render-cli/v2/pkg/text"
 )
 
 func TestWorkspaceTable(t *testing.T) {

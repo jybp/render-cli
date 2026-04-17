@@ -3,7 +3,7 @@ package deploy
 import (
 	"slices"
 
-	"github.com/render-oss/cli/pkg/client"
+	"github.com/jybp/render-cli/v2/pkg/client"
 )
 
 var cancellableStatuses = []client.DeployStatus{

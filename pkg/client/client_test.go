@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/render-oss/cli/pkg/client"
+	"github.com/jybp/render-cli/v2/pkg/client"
 )
 
 func TestErrorFromResponse(t *testing.T) {

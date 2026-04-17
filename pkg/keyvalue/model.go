@@ -1,7 +1,7 @@
 package keyvalue
 
 import (
-	"github.com/render-oss/cli/pkg/client"
+	"github.com/jybp/render-cli/v2/pkg/client"
 )
 
 const KeyValueType = "Key Value"

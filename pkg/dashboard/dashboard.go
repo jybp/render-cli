@@ -5,11 +5,11 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/render-oss/cli/pkg/config"
-	"github.com/render-oss/cli/pkg/keyvalue"
-	"github.com/render-oss/cli/pkg/postgres"
-	"github.com/render-oss/cli/pkg/service"
-	"github.com/render-oss/cli/pkg/workflow"
+	"github.com/jybp/render-cli/v2/pkg/config"
+	"github.com/jybp/render-cli/v2/pkg/keyvalue"
+	"github.com/jybp/render-cli/v2/pkg/postgres"
+	"github.com/jybp/render-cli/v2/pkg/service"
+	"github.com/jybp/render-cli/v2/pkg/workflow"
 )
 
 func Open(url string) error {

@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/render-oss/cli/pkg/client"
-	logClient "github.com/render-oss/cli/pkg/client/logs"
-	workflowClient "github.com/render-oss/cli/pkg/client/workflows"
-	"github.com/render-oss/cli/pkg/pointers"
-	"github.com/render-oss/cli/pkg/workflows/logs"
-	"github.com/render-oss/cli/pkg/workflows/store"
+	"github.com/jybp/render-cli/v2/pkg/client"
+	logClient "github.com/jybp/render-cli/v2/pkg/client/logs"
+	workflowClient "github.com/jybp/render-cli/v2/pkg/client/workflows"
+	"github.com/jybp/render-cli/v2/pkg/pointers"
+	"github.com/jybp/render-cli/v2/pkg/workflows/logs"
+	"github.com/jybp/render-cli/v2/pkg/workflows/store"
 )
 
 func mapTask(task *store.Task) *workflowClient.Task {

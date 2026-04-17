@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/render-oss/cli/pkg/tui/views"
+	"github.com/jybp/render-cli/v2/pkg/tui/views"
 )
 
 var loginCmd = &cobra.Command{

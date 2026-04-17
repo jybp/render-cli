@@ -3,7 +3,7 @@ package validate_test
 import (
 	"testing"
 
-	"github.com/render-oss/cli/pkg/validate"
+	"github.com/jybp/render-cli/v2/pkg/validate"
 )
 
 func TestIsObjectID(t *testing.T) {

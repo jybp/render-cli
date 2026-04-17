@@ -3,9 +3,9 @@ package workflow
 import (
 	"context"
 
-	"github.com/render-oss/cli/pkg/client"
-	wfclient "github.com/render-oss/cli/pkg/client/workflows"
-	"github.com/render-oss/cli/pkg/config"
+	"github.com/jybp/render-cli/v2/pkg/client"
+	wfclient "github.com/jybp/render-cli/v2/pkg/client/workflows"
+	"github.com/jybp/render-cli/v2/pkg/config"
 )
 
 type Repo struct {

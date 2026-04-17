@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/render-oss/cli/pkg/command"
-	"github.com/render-oss/cli/pkg/style"
+	"github.com/jybp/render-cli/v2/pkg/command"
+	"github.com/jybp/render-cli/v2/pkg/style"
 	"github.com/spf13/pflag"
 )
 

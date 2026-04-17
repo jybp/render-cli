@@ -3,7 +3,7 @@ package text
 import (
 	"testing"
 
-	"github.com/render-oss/cli/pkg/tui/views"
+	"github.com/jybp/render-cli/v2/pkg/tui/views"
 	"github.com/stretchr/testify/require"
 )
 

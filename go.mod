@@ -1,4 +1,4 @@
-module github.com/render-oss/cli
+module github.com/jybp/render-cli/v2
 
 go 1.25
 

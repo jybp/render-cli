@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/render-oss/cli/pkg/client"
-	servicetypes "github.com/render-oss/cli/pkg/types/service"
+	"github.com/jybp/render-cli/v2/pkg/client"
+	servicetypes "github.com/jybp/render-cli/v2/pkg/types/service"
 )
 
 func ResolveSecretFileInputs(secretFiles []string) ([]client.SecretFileInput, error) {

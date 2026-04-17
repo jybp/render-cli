@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/render-oss/cli/pkg/types"
+	"github.com/jybp/render-cli/v2/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

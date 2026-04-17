@@ -5,7 +5,7 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	btable "github.com/evertras/bubble-table/table"
-	"github.com/render-oss/cli/pkg/tui"
+	"github.com/jybp/render-cli/v2/pkg/tui"
 )
 
 type PaletteCommand struct {

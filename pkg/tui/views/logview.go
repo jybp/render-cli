@@ -13,14 +13,14 @@ import (
 	"github.com/charmbracelet/huh"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/x/ansi"
-	"github.com/render-oss/cli/pkg/logs"
-	"github.com/render-oss/cli/pkg/style"
-	"github.com/render-oss/cli/pkg/tui/layouts"
+	"github.com/jybp/render-cli/v2/pkg/logs"
+	"github.com/jybp/render-cli/v2/pkg/style"
+	"github.com/jybp/render-cli/v2/pkg/tui/layouts"
 	"github.com/spf13/cobra"
 
-	lclient "github.com/render-oss/cli/pkg/client/logs"
-	"github.com/render-oss/cli/pkg/command"
-	"github.com/render-oss/cli/pkg/tui"
+	lclient "github.com/jybp/render-cli/v2/pkg/client/logs"
+	"github.com/jybp/render-cli/v2/pkg/command"
+	"github.com/jybp/render-cli/v2/pkg/tui"
 )
 
 var (

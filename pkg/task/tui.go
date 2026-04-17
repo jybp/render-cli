@@ -1,8 +1,8 @@
 package task
 
 import (
-	wfclient "github.com/render-oss/cli/pkg/client/workflows"
-	"github.com/render-oss/cli/pkg/pointers"
+	wfclient "github.com/jybp/render-cli/v2/pkg/client/workflows"
+	"github.com/jybp/render-cli/v2/pkg/pointers"
 )
 
 func Header() []string {

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/render-oss/cli/pkg/workflows/scaffold"
+	"github.com/jybp/render-cli/v2/pkg/workflows/scaffold"
 )
 
 func TestShellWrap(t *testing.T) {

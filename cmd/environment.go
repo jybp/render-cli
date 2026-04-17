@@ -6,13 +6,13 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/spf13/cobra"
 
-	"github.com/render-oss/cli/pkg/client"
-	"github.com/render-oss/cli/pkg/command"
-	"github.com/render-oss/cli/pkg/project"
-	"github.com/render-oss/cli/pkg/text"
-	"github.com/render-oss/cli/pkg/tui"
-	"github.com/render-oss/cli/pkg/tui/flows"
-	"github.com/render-oss/cli/pkg/tui/views"
+	"github.com/jybp/render-cli/v2/pkg/client"
+	"github.com/jybp/render-cli/v2/pkg/command"
+	"github.com/jybp/render-cli/v2/pkg/project"
+	"github.com/jybp/render-cli/v2/pkg/text"
+	"github.com/jybp/render-cli/v2/pkg/tui"
+	"github.com/jybp/render-cli/v2/pkg/tui/flows"
+	"github.com/jybp/render-cli/v2/pkg/tui/views"
 )
 
 var environmentCmd = &cobra.Command{

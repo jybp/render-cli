@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/render-oss/cli/pkg/cfg"
-	"github.com/render-oss/cli/pkg/client/oauth"
-	"github.com/render-oss/cli/pkg/config"
+	"github.com/jybp/render-cli/v2/pkg/cfg"
+	"github.com/jybp/render-cli/v2/pkg/client/oauth"
+	"github.com/jybp/render-cli/v2/pkg/config"
 )
 
 var ErrUnauthorized = errors.New("unauthorized")

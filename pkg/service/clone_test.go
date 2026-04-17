@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/render-oss/cli/pkg/client"
-	"github.com/render-oss/cli/pkg/pointers"
-	types "github.com/render-oss/cli/pkg/types"
-	servicetypes "github.com/render-oss/cli/pkg/types/service"
+	"github.com/jybp/render-cli/v2/pkg/client"
+	"github.com/jybp/render-cli/v2/pkg/pointers"
+	types "github.com/jybp/render-cli/v2/pkg/types"
+	servicetypes "github.com/jybp/render-cli/v2/pkg/types/service"
 )
 
 func TestCLIInputFromSource(t *testing.T) {
